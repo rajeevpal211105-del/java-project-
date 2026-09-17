@@ -1,0 +1,19 @@
+# Compiled output
+out/
+*.class
+
+# Generated demo artifacts
+data/sample.huf
+data/sample_restored.txt
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db

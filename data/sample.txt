@@ -1,0 +1,17 @@
+Huffman coding is a greedy algorithm used for lossless data compression.
+It works by assigning variable-length binary codes to input characters,
+with shorter codes assigned to more frequently occurring characters and
+longer codes assigned to less frequent ones. This technique was developed
+by David A. Huffman in 1952 while he was a Ph.D. student at MIT.
+
+The core idea relies on building a binary tree, known as the Huffman tree,
+using a min-heap based greedy strategy: repeatedly combine the two
+least-frequent nodes until a single tree remains. Once built, traversing
+from the root to each leaf produces a unique, prefix-free binary code for
+every symbol in the input, which is what allows the encoded bitstream to
+be decoded unambiguously without any special separators between codes.
+
+Huffman coding remains a foundational building block behind many modern
+compression formats, including DEFLATE (used in ZIP and PNG), and is a
+staple example for teaching greedy algorithms, binary trees, and priority
+queues in data structures courses.
